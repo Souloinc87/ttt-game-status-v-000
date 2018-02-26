@@ -53,9 +53,9 @@ def winner(board)
     type = won[0]
 
     if won == true
-      return board(type)
+      return board[type]
     else
       nil
-    end 
+    end
   end
 end
