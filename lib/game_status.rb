@@ -40,3 +40,11 @@ def draw?(board)
     end
   end
 end
+
+def over?(board)
+  board.all? do |gameover|
+    if won?(board) && draw?(board) && full?(board) == true
+      return gameover
+    end
+  end
+end
