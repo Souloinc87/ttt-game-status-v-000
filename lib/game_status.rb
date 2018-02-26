@@ -41,4 +41,5 @@ def draw?(board)
 
     end
   end
+  true
 end
