@@ -35,11 +35,8 @@ end
 
 def draw?(board)
   board.all? do |draw_board|
-    if !(won?(board)) == full?(board)
-       true
-    elsif board.reject do |incomplete_board|
-      full?(board) == false
+    if !(won?(board)) && full?(board) == true
+       return draw_board
     end
   end
 end
-end 
