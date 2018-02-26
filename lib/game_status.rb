@@ -52,7 +52,7 @@ def winner(board)
     if win == "X"
       "X"
       
-      
+
     end
   end
 end
