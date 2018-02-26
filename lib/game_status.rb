@@ -46,7 +46,7 @@ def over?(board)
     if won?(board) && draw?(board) == false
      gameover
    else
-     false
+     true
     end
   end
 end
