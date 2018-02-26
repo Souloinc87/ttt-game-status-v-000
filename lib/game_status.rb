@@ -49,8 +49,8 @@ end
 
 def winner(board)
   board.each do |winner|
-    if over?(board)
-    return winner
+    if winner == "X" or winner == "O"
+      return winner 
     end
   end
 end
