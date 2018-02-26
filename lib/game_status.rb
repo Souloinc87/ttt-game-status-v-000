@@ -53,6 +53,6 @@ def winner(board)
   over?(board)
   return winner
 
-    end
+    
   end
 end
