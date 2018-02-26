@@ -28,8 +28,7 @@ end
 def full?(board)
   board.all? do |full_board|
     if full_board == "X" || full_board == "O"
-      return true
-     end
-   end
-  false
+      return false
+    end
+  end
 end
