@@ -35,10 +35,11 @@ end
 
 def draw?(board)
   board.each do |draw_board|
-    if full?(board) == draw_board
-       true
-    elsif won?(board) != draw_board
+    
+    if  won?(board) != draw_board
       return false
+    else
+      draw_board == true
     end
   end
 end
