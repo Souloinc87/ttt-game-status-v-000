@@ -52,9 +52,9 @@ end
 def winner(board)
   board.all? do |win|
     if over?(board)
-      puts "X"
-    elsif over?(board) 
-      puts "O"
+       "X"
+    elsif over?(board)
+       "O"
     end
   end
 end
