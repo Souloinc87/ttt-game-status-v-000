@@ -50,10 +50,10 @@ def over?(board)
 end
 
 def winner(board)
-  board.all? do |win|
-    if won?(board)
-       "X"
-    elsif draw(board)
+  board.collect do |win|
+    if won?(board) == "O"
+       return "O"
+    elsif draw?(board)
       puts " "
 
     end
