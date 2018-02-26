@@ -48,12 +48,9 @@ def over?(board)
 end
 
 def winner(board)
-  board.any? do |winner|
+  board.each do |winner|
     if won?(board) 
       return winner
-
-
-
     end
   end
 end
