@@ -48,3 +48,13 @@ def over?(board)
     end
   end
 end
+
+def winner(board)
+  board.all? do |win|
+    if over?(board) == "X"
+      puts "X"
+    elsif over?(board) == "O"
+      puts "O"
+    end
+  end 
+end
