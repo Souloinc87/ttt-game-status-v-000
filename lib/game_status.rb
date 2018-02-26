@@ -26,5 +26,9 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board.collect do |full_board|
+    if position_taken? == full_board
+      return false
+    end
+  true
 end
