@@ -52,7 +52,7 @@ end
 def winner(board)
   board.collect do |winner|
     if won?(board)
-      winner
+      return winner
       
 
 
