@@ -44,7 +44,9 @@ end
 def over?(board)
   board.all? do |gameover|
     if won?(board) && draw?(board) == true
-       return gameover
+     gameover
+   else
+     false
     end
   end
 end
