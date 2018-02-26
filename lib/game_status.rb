@@ -52,9 +52,7 @@ end
 def winner(board)
   board.collect do |win|
     if won?(board) == "O"
-       return "O"
-    elsif draw?(board)
-      puts " "
+       
 
     end
   end
