@@ -48,9 +48,11 @@ def over?(board)
 end
 
 def winner(board)
-  board.each do |win|
-    if won?(X)
-      return win
+  board.collect do |win|
+    if win == "X"
+      "X"
+      
+      
     end
   end
 end
