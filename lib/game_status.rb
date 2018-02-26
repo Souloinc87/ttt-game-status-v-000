@@ -48,5 +48,6 @@ def over?(board)
 end
 
 def winner(board)
-  board[combo.first] if(combo = won?(board))
+  combo = won?(board)
+  board[combo.first] if(combo)
 end
