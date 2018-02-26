@@ -49,7 +49,13 @@ end
 
 def winner(board)
   board.each do |win|
+    won = won?(board)
+    type = won[0]
 
-
+    if won == true
+      return board(type)
+    else
+      nil
+    end 
   end
 end
