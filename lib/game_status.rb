@@ -49,7 +49,7 @@ end
 
 def winner(board)
   board.each do |winner|
-    if won?(board)
+    if won?(board) == over?(board)
     winner
     end
   end
