@@ -36,7 +36,7 @@ end
 def draw?(board)
   board.each do |draw_board|
     if  full?(board) == draw_board
-      return true 
+      return true
     end
   end
 end
