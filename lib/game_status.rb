@@ -54,7 +54,7 @@ def winner(board)
     if won?(board)
       winner
       
-       
+
 
     end
   end
