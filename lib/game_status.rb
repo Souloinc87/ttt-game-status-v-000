@@ -26,10 +26,10 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do |full_board|
+  board.all? do |full_board|
     if full_board == "X" || full_board == "O"
       return true
-     end 
+     end
    end
   false
 end
