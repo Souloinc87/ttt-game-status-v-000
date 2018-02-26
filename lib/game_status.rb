@@ -37,5 +37,5 @@ def draw?(board)
   board.each do |draw_board|
     if won?(board) != draw_board
       return false
-    
+    end 
 end
