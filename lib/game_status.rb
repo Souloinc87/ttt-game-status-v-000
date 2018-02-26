@@ -43,7 +43,7 @@ end
 
 def over?(board)
   board.all? do |gameover|
-    if  full?(board) || draw?(board) || won?(board)
+    if  full?(board) || draw?(board) || won?(board) == true
     gameover
     end
   end
