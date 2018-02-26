@@ -52,7 +52,7 @@ end
 def winner(board)
   board.all? do |win|
     if won?(board)
-      return "X"
+       "X"
     elsif draw(board)
       puts " "
 
