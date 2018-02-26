@@ -50,7 +50,7 @@ end
 def winner(board)
   board.each do |winner|
     if winner == "X" || winner == "O"
-      return winner 
+      return winner
     end
   end
 end
