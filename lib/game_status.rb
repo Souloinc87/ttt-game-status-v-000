@@ -39,4 +39,5 @@ def draw?(board)
        draw_board
     end
   end
+  false
 end
