@@ -48,11 +48,9 @@ def over?(board)
 end
 
 def winner(board)
-  board.collect do |win|
-    if win == "X"
-      "X"
-      
-
-    end
+  combo = won?(board)
+  
+  if(combo)
+    board[combo[0]]   
   end
 end
