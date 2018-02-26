@@ -52,9 +52,9 @@ end
 def winner(board)
   board.all? do |win|
     if over?(board)
-      return "X"
+       "X"
     elsif over?(board)
-      return "O"
+       "O"
     end
   end
 end
