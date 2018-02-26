@@ -49,7 +49,7 @@ end
 
 def winner(board)
   board.any? do |winner|
-    if won?(board)
+    if won?(board) == "X"
       return winner
 
 
