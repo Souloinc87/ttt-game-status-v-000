@@ -36,7 +36,7 @@ end
 def draw?(board)
   board.any? do |draw_board|
     if !(won?(board)) == full?(board)
-       false
+       true 
 
     end
   end
