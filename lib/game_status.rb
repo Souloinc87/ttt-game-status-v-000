@@ -50,8 +50,10 @@ def over?(board)
 end
 
 def winner(board)
-  board.collect do |win|
-    if won?(board) == "O"
+  board.collect do |winner|
+    if won?(board)
+      winner
+      
        
 
     end
