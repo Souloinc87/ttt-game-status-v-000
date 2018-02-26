@@ -51,7 +51,8 @@ def winner(board)
   board.each do |winner|
   won?(board)
   over?(board)
-  
+  return winner
+
     end
   end
 end
