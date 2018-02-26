@@ -37,7 +37,7 @@ def draw?(board)
   board.all? do |draw_board|
     if !(won?(board)) == full?(board)
        true
-     else draw_board != full?(board)
+    elsif draw_board != full?(board)
        false 
 
     end
